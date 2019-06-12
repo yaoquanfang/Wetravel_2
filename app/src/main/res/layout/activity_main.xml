@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:id="@+id/fragment_home"
+        android:name="com.edu.swufe.wetravel.HomeFragment"/>
+
+    <fragment
+        android:id="@+id/fragment_soc"
+        android:name="com.edu.swufe.wetravel.SocFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:id="@+id/fragment_setting"
+        android:name="com.edu.swufe.wetravel.SettingFragment"/>
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioHome"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/zhuye"
+            android:layout_height="60dp"
+            android:text="首页"
+            android:textColor="#333333" />
+
+        <RadioButton
+            android:id="@+id/radioSoc"
+            style="@style/rg_btn_style"
+            android:layout_height="60dp"
+            android:drawableTop="@drawable/lianjie"
+            android:text="社区"
+            android:textColor="#333333" />
+
+        <RadioButton
+            android:id="@+id/radioSetting"
+            style="@style/rg_btn_style"
+            android:layout_height="60dp"
+            android:drawableTop="@drawable/wode"
+            android:text="我的"
+            android:textColor="#333333" />
+
+    </RadioGroup>
+</LinearLayout>

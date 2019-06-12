@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/zhuye" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/zhuye1" android:state_focused="true"></item>
+
+    <item android:drawable="@drawable/lianjie" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/lianjie1" android:state_focused="true"></item>
+
+    <item android:drawable="@drawable/wode" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/wode1" android:state_focused="true"></item>
+</selector>
