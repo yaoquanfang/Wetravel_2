@@ -97,7 +97,6 @@
                 android:layout_marginTop="34dp"
                 android:background="@drawable/sbutton"
                 android:textSize="18sp"
-                android:onClick="onClick"
                 android:text="登          录"
                 android:textColor="#333333" />
             <Button

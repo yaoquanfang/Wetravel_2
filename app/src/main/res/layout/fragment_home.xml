@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:background="?attr/colorPrimary"
+            android:background="#b2dfdb"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme">
 
@@ -122,22 +122,25 @@
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="134dp"
-                    android:layout_height="30dp"
+                    android:layout_height="60dp"
                     android:background="#C0D9D9"
+                    android:drawableTop="@drawable/caidan"
                     android:text="攻略" />
 
                 <Button
                     android:id="@+id/button6"
                     android:layout_width="125dp"
-                    android:layout_height="30dp"
+                    android:layout_height="60dp"
                     android:background="#C0D9D9"
+                    android:drawableTop="@drawable/jiudian"
                     android:text="酒店" />
 
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="125dp"
-                    android:layout_height="30dp"
+                    android:layout_height="60dp"
                     android:background="#C0D9D9"
+                    android:drawableTop="@drawable/feiji"
                     android:text="机票" />
             </LinearLayout>
 
