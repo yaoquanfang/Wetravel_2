@@ -13,5 +13,5 @@
     <string name="AboutFragment_label_help">帮助</string>
     <string name="AboutFragment_label_setting">设置</string>
     <string name="AboutFragment_label_check_update">检查更新</string>
-    <string name="AboutFragment_label_register">登录</string>
+    <string name="AboutFragment_label_register">退出登录</string>
 </resources>
