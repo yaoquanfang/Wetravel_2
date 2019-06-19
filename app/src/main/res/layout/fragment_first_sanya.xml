@@ -20,11 +20,13 @@
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"/>
 
-        <Button
+        <ImageView
             android:id="@+id/bot3"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:background="@drawable/luxian" />
 
         <TextView
@@ -34,11 +36,13 @@
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"/>
 
-        <Button
+        <ImageView
             android:id="@+id/bot4"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:background="@drawable/zhusu" />
 
         <TextView
@@ -48,11 +52,13 @@
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"/>
 
-        <Button
+        <ImageView
             android:id="@+id/bot5"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:background="@drawable/meishiq" />
 
     </LinearLayout>
