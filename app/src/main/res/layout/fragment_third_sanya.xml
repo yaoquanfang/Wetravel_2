@@ -15,18 +15,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
+                <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="避开人山人海！带你探寻三亚小众景点"
                 android:textSize="@dimen/font_size_large_high"
                 android:textColor="@color/colorPrimaryDark"/>
-
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -91,7 +85,6 @@
                     android:layout_height="200dp"
                     android:background="@drawable/houhai1"/>
             </LinearLayout>
-        </LinearLayout>
     </ScrollView>
 
 </FrameLayout>

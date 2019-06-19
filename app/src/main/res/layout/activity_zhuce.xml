@@ -29,7 +29,7 @@
                 android:layout_marginTop="55dp"
                 android:gravity="center" >
                 <EditText
-                    android:id="@+id/username_edit"
+                    android:id="@+id/username_edit1"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:layout_marginTop="5dp"
@@ -64,7 +64,7 @@
                 android:layout_marginTop="6dp"
                 android:gravity="center" >
                 <EditText
-                    android:id="@+id/userpassword_edit"
+                    android:id="@+id/userpassword_edit1"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:hint="密码"
@@ -89,7 +89,7 @@
             </FrameLayout>
 
             <Button
-                android:id="@+id/login_button"
+                android:id="@+id/register_button1"
                 android:layout_width="wrap_content"
                 android:layout_height="45dp"
                 android:layout_below="@+id/usercode_layout"
