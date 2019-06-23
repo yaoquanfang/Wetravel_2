@@ -125,7 +125,7 @@
                     android:layout_height="60dp"
                     android:background="#C0D9D9"
                     android:drawableTop="@drawable/caidan"
-                    android:text="攻略" />
+                    android:text="资讯" />
 
                 <Button
                     android:id="@+id/button6"

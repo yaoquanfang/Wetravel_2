@@ -40,6 +40,7 @@
             style="@style/rg_btn_style"
             android:drawableTop="@drawable/zhuye"
             android:layout_height="60dp"
+            android:textSize="10sp"
             android:text="首页"
             android:textColor="#333333" />
 
@@ -49,6 +50,7 @@
             android:layout_height="60dp"
             android:drawableTop="@drawable/lianjie"
             android:text="社区"
+            android:textSize="10sp"
             android:textColor="#333333" />
 
         <RadioButton
@@ -57,6 +59,7 @@
             android:layout_height="60dp"
             android:drawableTop="@drawable/wode"
             android:text="我的"
+            android:textSize="10sp"
             android:textColor="#333333" />
 
     </RadioGroup>

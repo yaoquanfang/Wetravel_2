@@ -14,19 +14,19 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="82dp"
+        android:layout_marginTop="98dp"
         android:drawableLeft="@drawable/a3"
         android:text="日本美食攻略" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="108dp"
         android:layout_above="@+id/button10"
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="32dp"
         android:drawableLeft="@drawable/fra"
         android:text="优雅吃遍巴黎" />
 

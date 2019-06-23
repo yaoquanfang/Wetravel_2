@@ -15,70 +15,62 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/btn_s4"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@drawable/second1" />
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      三亚海鲜因其种类全、味道鲜和价格低的特点，常年吸引着无数国内外游客前来饱餐。有了这篇攻略，到三亚不仅能吃到美味的海鲜，还不会上当受骗被坑哦~" />
 
-                <ImageView
-                    android:id="@+id/btn_s4"
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:background="@drawable/second1"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="第一市场"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font_size_large" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="      三亚海鲜因其种类全、味道鲜和价格低的特点，常年吸引着无数国内外游客前来饱餐。有了这篇攻略，到三亚不仅能吃到美味的海鲜，还不会上当受骗被坑哦~" />
+            <ImageView
+                android:id="@+id/btn_s2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/shichang" />
 
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="第一市场"
-                    android:textSize="@dimen/font_size_large"
-                    android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      第一市场作为三亚最大的海鲜交易市场，这里的海鲜不仅品种齐全、价格亲民，紧邻的新民街和椰风巷也聚集了大量海鲜加工店。
+你可在市场采买新鲜海鲜后直接拿到周边加工店制作、品尝。" />
 
-                <ImageView
-                    android:id="@+id/btn_s2"
-                    android:layout_width="match_parent"
-                    android:layout_height="160dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:background="@drawable/shichang"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="春园海鲜广场"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font_size_large" />
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="      第一市场作为三亚最大的海鲜交易市场，这里的海鲜不仅品种齐全、价格亲民，紧邻的新民街和椰风巷也聚集了大量海鲜加工店。
-你可在市场采买新鲜海鲜后直接拿到周边加工店制作、品尝。"/>
+            <ImageView
+                android:id="@+id/ima_s1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/chunyuan" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="春园海鲜广场"
-                    android:textSize="@dimen/font_size_large"
-                    android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      人气颇高的春园海鲜广场距第一市场仅3公里，鳞次栉比的海鲜加工档口近百个。不少游客会选择海南当地的“打边炉”吃法，即一行人围坐在火锅桌前酣畅淋漓地涮海鲜。热腾腾的气氛可以迅速洗刷掉旅途的疲惫。" />
 
-                <ImageView
-                    android:id="@+id/ima_s1"
-                    android:layout_width="match_parent"
-                    android:layout_height="160dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:background="@drawable/chunyuan"/>
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="      人气颇高的春园海鲜广场距第一市场仅3公里，鳞次栉比的海鲜加工档口近百个。不少游客会选择海南当地的“打边炉”吃法，即一行人围坐在火锅桌前酣畅淋漓地涮海鲜，热腾腾的气氛可以迅速洗刷掉旅途的疲惫。"/>
-
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

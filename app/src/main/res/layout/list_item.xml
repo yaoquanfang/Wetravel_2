@@ -7,18 +7,29 @@
     android:orientation="vertical"
     tools:context=".GonglueActivity">
 
-    <TextView
-        android:id="@+id/itemTitle"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="TextView"/>
-
-    <TextView
-        android:id="@+id/itemDetail"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="end"
-        android:text="TextView" />
+        android:layout_height="121dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_5">
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/itemDetail"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
 
 </LinearLayout>

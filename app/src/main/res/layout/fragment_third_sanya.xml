@@ -78,19 +78,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:background="@drawable/houhai"/>
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="        在后海，无论你是抓到了一道很nice的浪，或只是静静的躺在冲浪板上沐浴阳光，这时脑袋会自动屏蔽一切不开心，恣意舒服的光景完全只属于你自己。" />
-
-                <!--<ImageView-->
-                    <!--android:id="@+id/s4"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="180dp"-->
-                    <!--android:background="@drawable/houhai1"/>-->
-            </LinearLayout>
+             </LinearLayout>
     </ScrollView>
 
 </FrameLayout>
