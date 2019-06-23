@@ -9,13 +9,13 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="522dp"
+        android:layout_height="569dp"
         android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="42dp"
             android:layout_alignParentTop="true"
             android:background="#b2dfdb"
             android:minHeight="?attr/actionBarSize"
@@ -25,7 +25,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Wetravel——微风不燥，时光正好"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 android:textSize="15sp" />
         </android.support.v7.widget.Toolbar>
 
@@ -33,7 +34,7 @@
         <FrameLayout
             android:id="@+id/frameLayout_slide"
             android:layout_width="425dp"
-            android:layout_height="200dp"
+            android:layout_height="193dp"
             android:layout_marginTop="0dp"
             android:background="@drawable/bg1"
             tools:layout_editor_absoluteY="100dp">
@@ -109,7 +110,7 @@
         <LinearLayout
             android:id="@+id/news"
             android:layout_width="match_parent"
-            android:layout_height="256dp"
+            android:layout_height="364dp"
             android:layout_marginBottom="0dp"
             android:orientation="vertical">
 
@@ -157,16 +158,17 @@
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="55dp"
                 android:background="@drawable/bg3"
                 android:text="三亚"
-                android:textColor="@color/colorWhite"/>
-                <!--android:onClick="onClick"/>-->
+                android:textColor="@color/colorWhite" />
+            <!--android:onClick="onClick"/>-->
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/bg2"
                 android:text="泰国"
                 android:textColor="@color/colorWhite" />
@@ -174,7 +176,8 @@
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/bg4"
                 android:text="成都"
                 android:textColor="@color/colorWhite" />
